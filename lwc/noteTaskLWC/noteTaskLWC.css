@@ -1,0 +1,114 @@
+.card-body {
+    padding-top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h1.card-heading {
+    font-size: 20px;
+    padding-left: 20px;
+    color: #1f85d8;
+    font-weight: 700;
+}
+
+.heading-anchor {
+    width: fit-content;
+    display: block;
+}
+.heading-anchor:hover {
+    text-decoration: none !important;
+}
+.show{
+    display: block !important;
+}
+.hide{
+    display: none !important;
+}
+.initial-hidden{
+    display: none !important;
+}
+.add-note-fields{
+display: none;
+}
+.fetch-note{
+margin-top: 20px;
+}
+.button-submit{
+    justify-content: center;
+    display: flex!important;
+}
+.icons {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 16px;
+    display: flex;
+    z-index: 1;
+}
+.pin:hover {
+    cursor: pointer;
+}
+.btn-menu {
+    margin-left: 6px;
+}
+.view-card {
+    border: 1px solid #8080805c;
+    border-radius: 15px;
+}
+.btn-submit-modal{
+    margin-right: 10px;
+}
+.add-note{
+    padding:0px;
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+}
+.manu-icon{
+    position: absolute;
+    right: 25px;
+    top: 4px;
+}
+button.btn-opp {
+    width: 100%;
+    border: 1px solid #80808038;
+    border-radius: 15px;
+    margin-top: 5px;
+    background: #80808038;
+}
+.add-note-input{
+    margin-top: 20px;
+}
+button.btn-opp:hover {
+    text-decoration: underline;
+    color: royalblue;
+    font-weight: 700;
+}
+.bold {
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 70%;
+}
+.card-height{
+    min-height: 60px;
+    margin-top: 0;
+    max-height: 100px;
+
+}
+.opp-field > span {
+    display: none;
+}
+.filter-div {
+    float: right;
+    display: flex;
+}
+.filter-note{
+    font-size: 18px;
+        color: #1f85d8;
+        font-weight: 600;
+        margin-right: 10px;
+}
